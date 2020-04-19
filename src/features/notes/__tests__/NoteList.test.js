@@ -3,7 +3,7 @@ import { render } from '@testing-library/react'
 import renderer from 'react-test-renderer'
 import NoteList from '../components/NoteList'
 import { Provider } from 'react-redux'
-import store from '../../../App/store'
+import store from '../../../app/store'
 
 describe('NoteList Component ', () => {
   const props = {

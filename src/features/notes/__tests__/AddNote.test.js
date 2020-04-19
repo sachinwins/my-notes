@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import AddNote from '../components/AddNote'
 import { Provider } from 'react-redux'
-import store from '../../../App/store'
+import store from '../../../app/store'
 
 describe('AddNote Component ', () => {
   const { getAllByText } = render(
