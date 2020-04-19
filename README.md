@@ -23,6 +23,14 @@ React-Redux Notes with Login
 - After cloning this repository, set node and npm versions, run `npm install` in the project directory.
 - run `npm start`
 - It will Run the app in the development mode. [http://localhost:3000](http://localhost:3000)<br />
+- Defult Username is "guest" and password is "password". Sign In button will be only enable if both value matches. If you cahnge any of default value "Sign In" button will become disable.
+- On login it will store username and password in local storage & display username in Notes page.
+- After login you will redirect to Notes page, in top yoou will find a button to logout
+- On clicking "Add Note" button another section will become visible, that will allow you to add title and content. After filling detail, click on "Add Note" button below to add note in saved notes section
+- You will be able to see list of notes added in left hand side section.
+  By clicking any of the note, detaisl will be appear in right side section, where you can update/delete note
+- You can delete any note from left hand side NoteLists section by clickking on "x" icon
+- Any URL that is not defined will redirect to "page not found" component
 
 ## Available Scripts
 
