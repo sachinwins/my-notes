@@ -3,7 +3,7 @@ import { render } from '@testing-library/react'
 import renderer from 'react-test-renderer'
 import Login from '../Login'
 import { Provider } from 'react-redux'
-import store from '../../../App/store'
+import store from '../../../app/store'
 
 describe('Login Component ', () => {
   const { getAllByText } = render(
