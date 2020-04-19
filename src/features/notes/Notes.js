@@ -95,7 +95,12 @@ const Notes = (props) => {
 
   const drawer = (
     <div>
-      <div className={classes.toolbar}>
+      <div
+        className={
+          // eslint-disable-next-line
+          (classes.toolbar, 'gNotes')
+        }
+      >
         <Typography variant="h6" noWrap>
           G Notes
         </Typography>

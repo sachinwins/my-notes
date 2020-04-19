@@ -23,7 +23,7 @@ body {
 				.MuiPaper-elevation4 {
 					box-shadow: none;
 				}
-				.makeStyles-toolbar-13{
+				.gNotes {
 					padding-left: 15px;
 					padding-top: 9px;
 					min-height: 50px !important;
@@ -78,7 +78,7 @@ body {
 					border:none;
 					
 				}
-				[class*='makeStyles-content']{
+				main {
 					border-left: 1px solid rgba(0, 0, 0, 0.12);
 				}
 			}
@@ -91,7 +91,7 @@ body {
 
 @media (min-width: 0px) and (orientation: landscape),
 (orientation: portrait) {
-	.makeStyles-toolbar-13, .makeStyles-toolbar-119, .makeStyles-toolbar-481 {
+	.gNotes {
 		padding-left: 15px;
 		padding-top: 9px;
 		min-height: 50px !important;
@@ -112,7 +112,7 @@ body {
 	}
 }
 @media (min-width: 600px) {
-	[class*='makeStyles-toolbar'], .makeStyles-toolbar-284 {
+	.gNotes{
 		padding-left: 15px;
 		padding-top: 9px;
 		min-height: 50px !important;
