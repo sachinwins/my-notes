@@ -1,6 +1,5 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { withRouter } from 'react-router-dom'
 import Button from '@material-ui/core/Button'
 import TextField from '@material-ui/core/TextField'
 import { makeStyles } from '@material-ui/core/styles'
@@ -34,7 +33,7 @@ const Login = (props) => {
   const checkDisabled = () => {
     return isValidUser ? false : true
   }
-  if (isUserLoggedIn) props.history.push('/notes')
+  isUserLoggedIn && props.history.push('/notes')
   return (
     <Container component="main" maxWidth="xs">
       <div className={classes.paper}>
@@ -86,4 +85,4 @@ const Login = (props) => {
   )
 }
 
-export default withRouter(Login)
+export default Login
